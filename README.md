@@ -1,7 +1,6 @@
-# JARVIS-ChatGPT: A conversational assistant equipped with J.A.R.V.I.S's voice
+# JARVIS-GPT: A conversational assistant equipped with J.A.R.V.I.S's voice
 **A voice-based interactive assistant equipped with a variety of synthetic voices (including J.A.R.V.I.S's voice from IronMan)**
 
-![GitHub last commit](https://img.shields.io/github/last-commit/gianmarcoguarnier/JARVIS-ChatGPT?style=for-the-badge)
 <p align="center">
   <img src="https://user-images.githubusercontent.com/49094051/227788148-a8ff8e06-86a4-41a6-aa53-8b7d6855360c.png"/>
   <span style=color:grey> <i>image by MidJourney AI </i> </span>
@@ -22,14 +21,14 @@ https://user-images.githubusercontent.com/49094051/231303323-9859e028-33e1-490d-
 <br>
 
 ---
-## JULY 14th 2023 UPDATE: Research Mode
-I can finnaly share the first draft of the Research Mode. This modality was thought for people often dealing with research papers. 
+##UPDATE: Research Mode
+I can finally share the first draft of the Research Mode. This modality was taught to people often dealing with research papers. 
 - Switch to research mode by saying *'Switch to Research Mode'*
-- :star: Initialize a new workspace like this: *'Initialize a new workspace about Carbon Fiber Applications in the Spacecraft industry'*. A workspace is a folder that collects and organize the results of the research. This protocol is subdivided into 3 sub-routines:
+- :star: Initialize a new workspace like this: *'Initialize a new workspace about Carbon Fiber Applications in the Spacecraft industry'*. A workspace is a folder that collects and organizes the results of the research. This protocol is subdivided into 3 sub-routines:
    1. Core Paper identification: Use the **Semantic Scholar API** to identify some strongly relevant papers;
-   2. Core Expansion: for each paper, finds some suggestions, then keep only the suggestions that appear to be similar to at least 2 paper;
+   2. Core Expansion: For each paper, finds some suggestions, then keep only the suggestions that appear to be similar to at least 2 paper;
    3. Refy Expansion: use the refy suggestion package to enlarge the results;
-- Find suggestions like: *'find suggestions that are sililar to the paper with title ...'*
+- Find suggestions like: *'find suggestions that are similar to the paper with title ...'*
 - Download: *'download the paper with title ...'*
 - :star: Query your database like: *'what is the author of the paper with title ...?'*  *'what are the experimental conditions set for the paper with title ...?'*
 
@@ -131,38 +130,6 @@ When running, you'll see much information being displayed. I'm constantly strivi
 <span style="color:grey">*not ideal I know but works for now*</span>
 
 
-# History:
-- [x] [11 - 2022] Deliver chat-like prompts from Python from a keyboard
-- [x] [12 - 2022] Deliver chat-like prompts from Python with voice
-- [x] [2  - 2023] International language support for prompt and answers
-- [x] [3  - 2023] Jarvis voice set up
-- [x] [3  - 2023] Save conversation
-- [x] [3  - 2023] Background execution & Voice Summoning
-- [x] [3  - 2023] Improve output displayed info
-- [x] [3  - 2023] Improve JARVIS's voice performances through prompt preprocessing
-- [x] [4  - 2023] Introducing: *Project memory* store chats, events, timelines and other relevant information for a given project to be accessed later by the user or the assistant itself 
-- [x] [4  - 2023] Create a full stack ```VirtualAssistant``` class with memory and local storage access
-- [x] [4  - 2023] Add sound feedback at different stages (chimes, beeps...)
-- [x] [4  - 2023] International language support for voice commands (beta)
-- [x] [4  - 2023] Making a step-by-step tutorial 
-- [x] [4  - 2023] Move some processing locally to reduce credit consumption: [Vicuna: A new, powerful model based on LLaMa, and trained with GPT-4](https://www.youtube.com/watch?v=ByV5w1ES38A&ab_channel=TroubleChute);
-- [x] [4  - 2023] Integrate with Eleven Labs Voices for super expressive voices and outstanding voice cloning;
-- [x] [4  - 2023] Extending voice commands and *Actions* (make a better active assistant)
-- [x] [4  - 2023] Connect the system to the internet
-- [x] [6  - 2023] Connect with paper database
-
-currently working on:
-- [ ] Extend doc processing tools
-- [ ] Find a free alternative for LangChain Agents
-
-following:
-- [ ] fixing chat length bug (when the chat is too long it can't be processed by ChatGPT 3.5 Turbo)
-- [ ] expanding *Memory* 
-- [ ] crash reports   
-- [ ] Refine capabilities
-<br>
-<br>
-
 ### waiting for ChatGPT4 to:
 - [ ] add multimodal input (i.e. "Do you think 'this' [holding a paper plane] could fly" -> camera -> ChatGPT4 -> "you should improve the tip of the wings" )
 - [ ] Extend *project memory* to images, pdfs, papers...
@@ -206,4 +173,4 @@ This is a bug still present, don't expect to have ever long conversations with y
 Right now (April 2023) I'm working almost non-stop on this. I will likely take a break in the summer because I'll be working on my thesis. 
 
 If you have questions you can contact me by raising an Issue and I'll do my best to help as soon as possible.
-<p align="right"><i>Gianmarco Guarnier<i></p>
+<p align="right"><i>Viplove<i></p>
