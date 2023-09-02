@@ -21,7 +21,7 @@ https://user-images.githubusercontent.com/49094051/231303323-9859e028-33e1-490d-
 <br>
 
 ---
-##UPDATE: Research Mode
+## UPDATE: Research Mode
 I can finally share the first draft of the Research Mode. This modality was taught to people often dealing with research papers. 
 - Switch to research mode by saying *'Switch to Research Mode'*
 - :star: Initialize a new workspace like this: *'Initialize a new workspace about Carbon Fiber Applications in the Spacecraft industry'*. A workspace is a folder that collects and organizes the results of the research. This protocol is subdivided into 3 sub-routines:
