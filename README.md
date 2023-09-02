@@ -169,8 +169,5 @@ This is a bug still present, don't expect to have ever long conversations with y
 2. Use a Hybrid mode where the most credit-intensive tasks are executed locally for free and the rest is done online. 
 3. Install Vicuna and run OFFLINE mode only with limited performance. 
 
-### GENERAL: For how long will this project be updated? 
-Right now (April 2023) I'm working almost non-stop on this. I will likely take a break in the summer because I'll be working on my thesis. 
 
-If you have questions you can contact me by raising an Issue and I'll do my best to help as soon as possible.
 <p align="right"><i>Viplove<i></p>
